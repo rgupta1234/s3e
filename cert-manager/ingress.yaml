@@ -16,7 +16,8 @@ spec:
             name: nodejs-basic
             port:
               number: 3001
-        path: /      
+        path: /  
+        pathType: Prefix
   tls:
   - hosts:
     - nodejs-basic-atest.apps.cluster-n4xmz.n4xmz.sandbox3275.opentlc.com
